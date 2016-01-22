@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
 
+<<<<<<< HEAD
 var React = require('react');
 var ReactDOMServer = require('react-dom/server');
 var DOM = React.DOM;
@@ -11,6 +12,8 @@ var script = DOM.script;
 var browserify = require('browserify');
 var babelify = require('babelify');
 
+=======
+>>>>>>> initial commit, learnyoureact started
 app.set('port', (process.argv[2] || 3000));
 app.set('view engine', 'jsx');
 app.set('views', __dirname + '/views');
@@ -20,6 +23,7 @@ require('babel/register')({
     ignore: false
 });
 
+<<<<<<< HEAD
 var TodoBox = require('./views/index.jsx');
 var data = [{'title': 'Shopping', 'detail': process.argv[3] }, {'title': 'Hair cut', 'detail': process.argv[4] }]
 
@@ -52,6 +56,10 @@ app.use('/', function(req, res) {
     ));
 
     res.end(html);
+=======
+app.use('/', function(req, res) {
+  res.render('index', '');
+>>>>>>> initial commit, learnyoureact started
 });
 
 app.listen(app.get('port'), function() {});

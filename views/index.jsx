@@ -2,6 +2,7 @@ import React from 'react';
 
 export default class TodoBox extends React.Component {
     render() {
+<<<<<<< HEAD
     return (
       <div className="todoBox">
         <h1>Todos</h1>
@@ -55,6 +56,29 @@ Todo.propTypes = {
 	title: React.PropTypes.string.isRequired
 };
 
+=======
+        return (
+            <div className="todoBox">
+                <h1>Todos</h1>
+                <TodoList />
+                <TodoForm />
+            </div>
+        );
+    }
+}
+
+class TodoList extends React.Component {
+  // Write code here
+  render() {
+  	return (
+	  <div className="todoList">
+	  	I am a TodoList.
+	  </div>
+	);
+  }
+}
+
+>>>>>>> initial commit, learnyoureact started
 class TodoForm extends React.Component {
   // Write code here
   render() {
@@ -66,6 +90,7 @@ class TodoForm extends React.Component {
   }
 }
 
+<<<<<<< HEAD
 let style = {
 	checkedTodo: {
 		textDecoration: "line-through"
@@ -77,3 +102,5 @@ let style = {
 		border: "1px solid black"
 	}
 };
+=======
+>>>>>>> initial commit, learnyoureact started
