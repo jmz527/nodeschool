@@ -145,7 +145,16 @@ let style = {
 	},
 =======
 let style = {
+<<<<<<< HEAD
 >>>>>>> style passed
+=======
+	checkedTodo: {
+		textDecoration: "line-through"
+	},
+	notCheckedTodo: {
+		textDecoration: "none"
+	},
+>>>>>>> ...pass
 	tableContent: {
 		border: "1px solid black"
 	}
