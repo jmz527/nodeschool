@@ -98,10 +98,6 @@ class Todo extends React.Component {
 		this.setState({checked: e.target.checked});
 	}
 
-	// getInitialState() {
-	// 	this.state = {checked: true};
-	// }
-
 	render() {
 		return (
 			<tr>
@@ -135,6 +131,7 @@ class TodoForm extends React.Component {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 let style = {
 	checkedTodo: {
 		textDecoration: "line-through"
@@ -142,9 +139,15 @@ let style = {
 	notCheckedTodo: {
 		textDecoration: "none"
 	},
+=======
+let style = {
+>>>>>>> style passed
 	tableContent: {
 		border: "1px solid black"
 	}
 };
+<<<<<<< HEAD
 =======
 >>>>>>> initial commit, learnyoureact started
+=======
+>>>>>>> style passed
