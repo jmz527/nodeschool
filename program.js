@@ -24,6 +24,7 @@ require('babel/register')({
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var TodoBox = require('./views/index.jsx');
 var data = [{'title': 'Shopping', 'detail': process.argv[3] }, {'title': 'Hair cut', 'detail': process.argv[4] }]
 
@@ -60,6 +61,13 @@ app.use('/', function(req, res) {
 app.use('/', function(req, res) {
   res.render('index', '');
 >>>>>>> initial commit, learnyoureact started
+=======
+// write below
+var data = [{'title': 'Shopping', 'detail': process.argv[3] }, {'title': 'Hair cut', 'detail': process.argv[4] }]
+
+app.use('/', function(req, res) {
+  res.render('index', {data: data});
+>>>>>>> properties are from the server
 });
 
 app.listen(app.get('port'), function() {});
