@@ -8,21 +8,6 @@ module.exports = function average(...args) {
 };
 
 
-
-
-
-
-// var foot = {
-// 	kick: function () {
-// 		this.yelp = "Ouch!";
-// 		setImmediate(() => {
-// 			console.log(this.yelp);
-// 		});
-// 	}
-// };
-// foot.kick();
-
-
 // var args = process.argv;
 // // console.log(args);
 // // console.log(args.splice(2, (args.length - 2)))
