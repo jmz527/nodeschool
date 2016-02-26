@@ -40,10 +40,6 @@ class Todo extends React.Component {
 		this.setState({checked: e.target.checked});
 	}
 
-	// getInitialState() {
-	// 	this.state = {checked: true};
-	// }
-
 	render() {
 		return (
 			<tr>
@@ -72,3 +68,8 @@ class TodoForm extends React.Component {
   }
 }
 
+let style = {
+	tableContent: {
+		border: "1px solid black"
+	}
+};
